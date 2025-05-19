@@ -1,9 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35828.75 d17.13
+VisualStudioVersion = 17.13.35828.75
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LaterGatorAPI", "LaterGatorAPI\LaterGatorAPI.csproj", "{31D376EE-3AE3-4947-80A7-C108140D9C12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LaterGator.Domain", "LaterGator.Domain\LaterGator.Domain.csproj", "{E1C1ED13-CA14-4210-A72B-134A22F9BD3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LaterGator.Application", "LaterGator.Application\LaterGator.Application.csproj", "{F449AA81-0F8D-43F7-BBD6-7A820997EC7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LaterGator.Infrastructure", "LaterGator.Infrastructure\LaterGator.Infrastructure.csproj", "{FD47A5FD-25AE-4FE9-8729-96B04C3DC100}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{31D376EE-3AE3-4947-80A7-C108140D9C12}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{31D376EE-3AE3-4947-80A7-C108140D9C12}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{31D376EE-3AE3-4947-80A7-C108140D9C12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1C1ED13-CA14-4210-A72B-134A22F9BD3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1C1ED13-CA14-4210-A72B-134A22F9BD3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1C1ED13-CA14-4210-A72B-134A22F9BD3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1C1ED13-CA14-4210-A72B-134A22F9BD3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F449AA81-0F8D-43F7-BBD6-7A820997EC7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F449AA81-0F8D-43F7-BBD6-7A820997EC7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F449AA81-0F8D-43F7-BBD6-7A820997EC7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F449AA81-0F8D-43F7-BBD6-7A820997EC7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD47A5FD-25AE-4FE9-8729-96B04C3DC100}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD47A5FD-25AE-4FE9-8729-96B04C3DC100}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD47A5FD-25AE-4FE9-8729-96B04C3DC100}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD47A5FD-25AE-4FE9-8729-96B04C3DC100}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
